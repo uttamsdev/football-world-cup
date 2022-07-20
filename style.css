@@ -102,6 +102,35 @@ header{
     padding-bottom: 20px;
     border-radius: 8px;
 }
+.match{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+.match-card{
+    width: 312px;
+    height: 242px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    /* padding-bottom: 20px; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.match-info h3{
+    font-weight: 600;
+    color: #161616;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.match-info p{
+    color: #4D4D4D;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .transfer-btn{
     border: none;
     background-color: white;
