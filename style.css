@@ -54,10 +54,10 @@ header{
     height: 300px;
     background-color: #161616;
     padding: 30px;
-}
-.navs a{
     display: flex;
     flex-direction: column;
+}
+.navs a{
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -239,6 +239,93 @@ footer{
     }
     .links{
         flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+
+/* tablet view  */
+@media only screen and (min-width: 689px) and (max-width: 992px){
+    header{
+        /* margin-top: 0; */
+        width: 90%;
+        height: auto;
+        /* flex-direction: column; */
+        gap: 50px;
+    }
+    .banner{
+        width: 90%;
+        margin-top: 50px;
+        padding-left: 30px;
+    }
+    .banner h1{
+        font-size: 40px;
+        /* text-align: center; */
+        /* padding: 10px; */
+    }
+    .banner p{
+        padding: 20px 0px;
+        text-align: justify;
+
+    }
+    .banner-image img{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        /* display: none; */
+        bottom: 0;
+        height: 400px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+
+    .navs{
+        background-color: white;
+    }
+    /* .navs a{
+        display: flex;
+        flex-direction: row !important;
+        border: 1px solid #161616;
+    } */
+    .container .navs{
+        box-sizing: content-box;
+        width: 600px;
+        height: auto;
+        display: flex;
+        flex-direction: row !important;
+        gap: 50px;
+    }
+    .navs a{
+        border: 1px solid #161616;
+        padding: 10px 30px !important;
+        
+        /* padding: 10px 50px; */
+    }
+    /* .navs a{
+        display: block;
+        width: 450px !important;
+        background-color: red;
+    } */
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hr{
+        width: 80%;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .links{
+        flex-wrap: wrap;
         text-align: center;
     }
 }
