@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    margin: 50px auto;
+    width: 1600px;
+    height: 650px;
+    background-color: #161616;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    border-radius: 5px;
+    /* margin-left: 100px; */
+    /* position: relative; */
+}
+.banner{
+    width: 650px;
+    margin-top: 110px;
+}
+.banner h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 16px;
+}
+.live-btn{
+    border: none;
+    background: #DD0000;
+    padding: 13px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.banner-image img{
+    height: 613px;
+    position: relative;
+    bottom: -38px;
+
+    /* width: 581px; */
+}
+.navs{
+    width: 352px;
+    height: 300px;
+    background-color: #161616;
+    padding: 30px;
+}
+.navs a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 20px;
+    color: black;
+    padding: 10px 0px;
+    /* width: 200px; */
+    border-radius: 5px;
+}
+.active{
+    background-color: #DD0000 !important;
+    color: white !important;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.blog-info{
+    padding-left: 20px;
+}
+.blog-info h4{
+    color: #161616;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.icons p{
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.blog{
+    width: 312px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+.transfer-btn{
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #161616;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.icons{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+}
+.time,.chat{
+    display: flex;
+    gap: 10px;
+}
+.footer{
+    height: 444px;
+}
