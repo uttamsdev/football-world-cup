@@ -121,6 +121,32 @@ header{
     display: flex;
     gap: 10px;
 }
-.footer{
+footer{
+    margin-top: 100px;
     height: 444px;
+    background-color: #161616;
+}
+.footer h1{
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.hr{
+    margin: 0 auto;
+    width: 1320px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.links a{
+    color: #B9B9B9;
+    font-weight: 500;
 }
