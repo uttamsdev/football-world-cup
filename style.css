@@ -183,13 +183,39 @@ footer{
 }
 @media (max-width:688px) {
     header{
-        width: 85%;
+        /* margin-top: 0; */
+        width: 90%;
         height: auto;
         flex-direction: column;
+        gap: 50px;
+    }
+    .banner{
+        width: 90%;
+        margin-top: 50px;
     }
     .banner h1{
-        font-size: 22px;
+        font-size: 32px;
         text-align: center;
+        padding: 10px;
+    }
+    .banner p{
+        padding: 20px;
+        text-align: justify;
+
+    }
+    .banner-image img{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        /* display: none; */
+        bottom: 0;
+        height: 400px;
+    }
+    .banner button{
+        display: block;
+        margin: 0 auto;
+        /* display: flex; */
+        /* justify-content: center; */
     }
     .container{
         flex-direction: column;
